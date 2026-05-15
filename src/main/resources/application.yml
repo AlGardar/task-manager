@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: task-manager-test
+
+  jackson:
+    time-zone: UTC
+
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
